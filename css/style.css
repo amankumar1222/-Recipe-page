@@ -152,16 +152,22 @@ th {
 }
 
 td {
-    border-bottom: 1px solid #ddd;
     padding: 8px;
     font-family: "Outfit", sans-serif;
     font-size: 14px;
 }
+tr:not(:last-child) { border-bottom: 1px solid #ddd; }
 
 tr td:last-child {
     color: var(--primary-dark-raspberry);
     font-weight: 700;
 }
+
+
+td:first-child{ color: var(--neutral-wenge-brown);
+
+
+
 
 
 @media only screen and (max-width: 600px) {
